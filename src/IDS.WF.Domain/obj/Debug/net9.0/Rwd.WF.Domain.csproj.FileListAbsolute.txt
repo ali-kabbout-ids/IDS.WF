@@ -1,0 +1,12 @@
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\bin\Debug\net9.0\Rwd.WF.Domain.deps.json
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\bin\Debug\net9.0\Rwd.WF.Domain.dll
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\bin\Debug\net9.0\Rwd.WF.Domain.pdb
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.csproj.AssemblyReference.cache
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.AssemblyInfoInputs.cache
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.AssemblyInfo.cs
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.csproj.CoreCompileInputs.cache
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.dll
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\refint\Rwd.WF.Domain.dll
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\Rwd.WF.Domain.pdb
+c:\Users\a.kabbout\Desktop\Projects\RDH\API\src\IDS.WF\src\IDS.WF.Domain\obj\Debug\net9.0\ref\Rwd.WF.Domain.dll

@@ -1,0 +1,386 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.api\\controllers\\lookupcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|solutionrelative:src\\ids.wf.api\\controllers\\lookupcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\persistence\\workflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\persistence\\workflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\persistence\\seeding\\lookupdefaultsseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\persistence\\seeding\\lookupdefaultsseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\persistence\\repositories\\lookupitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\persistence\\repositories\\lookupitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\persistence\\repositories\\lookupcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\persistence\\repositories\\lookupcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\identity\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\identity\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.infrastructure\\cache\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C687699-4683-4BB4-ADC1-08F6913D62F3}|src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj|solutionrelative:src\\ids.wf.infrastructure\\cache\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\events\\lookupcategoryevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\events\\lookupcategoryevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\entities\\lookupcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\entities\\lookupcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\common\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\common\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933EA26D-010D-4071-96C5-1C1F227616B7}|src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj|solutionrelative:src\\ids.wf.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.application\\mappings\\lookupmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|solutionrelative:src\\ids.wf.application\\mappings\\lookupmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.application\\dtos\\lookupdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|solutionrelative:src\\ids.wf.application\\dtos\\lookupdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|solutionrelative:src\\ids.wf.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094B10A1-2823-4746-93DE-35CC46F0F2F4}|src\\IDS.WF.Application\\Rwd.WF.Application.csproj|solutionrelative:src\\ids.wf.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.api\\authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|solutionrelative:src\\ids.wf.api\\authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|c:\\users\\a.kabbout\\desktop\\projects\\rdh\\api\\src\\ids.wf\\src\\ids.wf.api\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}|src\\IDS.WF.API\\Rwd.WF.API.csproj|solutionrelative:src\\ids.wf.api\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkflowDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\WorkflowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Persistence\\WorkflowDbContext.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\WorkflowDbContext.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Persistence\\WorkflowDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:13:04.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LookupDefaultsSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Seeding\\LookupDefaultsSeeder.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Persistence\\Seeding\\LookupDefaultsSeeder.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Seeding\\LookupDefaultsSeeder.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Persistence\\Seeding\\LookupDefaultsSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:12:55.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LookupItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupItemRepository.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupItemRepository.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupItemRepository.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:12:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LookupCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupCategoryRepository.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupCategoryRepository.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Persistence\\Repositories\\LookupCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:12:47.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LookupCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Controllers\\LookupCategoriesController.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.API\\Controllers\\LookupCategoriesController.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Controllers\\LookupCategoriesController.cs",
+              "RelativeToolTip": "src\\IDS.WF.API\\Controllers\\LookupCategoriesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:09:23.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Identity\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Identity\\CurrentUserService.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Identity\\CurrentUserService.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Identity\\CurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:12:19.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Cache\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Infrastructure\\Cache\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Cache\\RedisCacheService.cs",
+              "RelativeToolTip": "src\\IDS.WF.Infrastructure\\Cache\\RedisCacheService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:12:15.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:11:58.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LookupCategoryEvents.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Events\\LookupCategoryEvents.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Events\\LookupCategoryEvents.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Events\\LookupCategoryEvents.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Events\\LookupCategoryEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:11:51.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LookupCategory.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Entities\\LookupCategory.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Entities\\LookupCategory.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Entities\\LookupCategory.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Entities\\LookupCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:11:43.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Common\\Result.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\Result.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Common\\Result.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:11:16.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Common\\IDomainEvent.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\IDomainEvent.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Common\\IDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:11:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\IDS.WF.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:10:53.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LookupMappings.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Mappings\\LookupMappings.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Application\\Mappings\\LookupMappings.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Mappings\\LookupMappings.cs",
+              "RelativeToolTip": "src\\IDS.WF.Application\\Mappings\\LookupMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:10:38.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LookupDtos.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\DTOs\\LookupDtos.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Application\\DTOs\\LookupDtos.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\DTOs\\LookupDtos.cs",
+              "RelativeToolTip": "src\\IDS.WF.Application\\DTOs\\LookupDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:10:13.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\IDS.WF.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:09:59.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Common\\Behaviors\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.Application\\Common\\Behaviors\\LoggingBehavior.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Common\\Behaviors\\LoggingBehavior.cs",
+              "RelativeToolTip": "src\\IDS.WF.Application\\Common\\Behaviors\\LoggingBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:09:58.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Authorization\\Permissions.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.API\\Authorization\\Permissions.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Authorization\\Permissions.cs",
+              "RelativeToolTip": "src\\IDS.WF.API\\Authorization\\Permissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:09:06.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Authorization\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "src\\IDS.WF.API\\Authorization\\PermissionRequirement.cs",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Authorization\\PermissionRequirement.cs",
+              "RelativeToolTip": "src\\IDS.WF.API\\Authorization\\PermissionRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:07:24.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-23T14:55:51.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

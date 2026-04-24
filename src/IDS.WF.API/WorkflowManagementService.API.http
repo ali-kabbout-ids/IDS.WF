@@ -1,0 +1,6 @@
+@Rwd.WF.API_HostAddress = http://localhost:5009
+
+GET {{Rwd.WF.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
