@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {}
+    "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
+    "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
+        "projectUniqueName": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
         "projectName": "Rwd.WF.Application",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
-        "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\obj\\",
+        "projectPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
+        "packagesPath": "C:\\Users\\T410\\.nuget\\packages\\",
+        "outputPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a.kabbout\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T410\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -35,8 +35,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
-                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj"
+              "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
+                "projectPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -86,25 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
+    "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
+        "projectUniqueName": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
         "projectName": "Rwd.WF.Domain",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
-        "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\obj\\",
+        "projectPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
+        "packagesPath": "C:\\Users\\T410\\.nuget\\packages\\",
+        "outputPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a.kabbout\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T410\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -133,7 +133,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -160,25 +160,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {
+    "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
+        "projectUniqueName": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
         "projectName": "Rwd.WF.Infrastructure",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\obj\\",
+        "projectPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\T410\\.nuget\\packages\\",
+        "outputPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a.kabbout\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T410\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -195,13 +195,16 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
-                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj"
+              "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
+                "projectPath": "C:\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -211,25 +214,37 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "Elsa.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[9.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.11, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -264,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

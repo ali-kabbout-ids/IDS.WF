@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rwd.WF.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13ab412b84bee73eef839fadc02621112f4cdb31")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rwd.WF.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rwd.WF.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
