@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rXSEvvMKY0M=",
+  "dgSpecHash": "lj7UbE8jlqk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.API\\Rwd.WF.API.csproj",
+  "projectFilePath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.API\\Rwd.WF.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.kabbout\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\a.kabbout\\.nuget\\packages\\asp.versioning.http\\8.1.1\\asp.versioning.http.8.1.1.nupkg.sha512",

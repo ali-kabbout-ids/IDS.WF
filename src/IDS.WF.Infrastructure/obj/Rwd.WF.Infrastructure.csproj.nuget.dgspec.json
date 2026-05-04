@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {}
+    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
+    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
+        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
         "projectName": "Rwd.WF.Application",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
+        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj",
         "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\obj\\",
+        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -29,14 +29,16 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
-                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj"
+              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
+                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj"
               }
             }
           }
@@ -55,6 +57,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "FluentValidation.DependencyInjectionExtensions": {
@@ -90,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
+    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
         "projectName": "Rwd.WF.Domain",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
+        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\Rwd.WF.Domain.csproj",
         "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Domain\\obj\\",
+        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -115,10 +118,12 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -137,6 +142,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "MediatR": {
@@ -164,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {
+    "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
         "projectName": "Rwd.WF.Infrastructure",
-        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\a.kabbout\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -189,14 +195,16 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
-                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj"
+              "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj": {
+                "projectPath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Application\\Rwd.WF.Application.csproj"
               }
             }
           }
@@ -215,6 +223,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "MassTransit.RabbitMQ": {

@@ -1,0 +1,129 @@
+##########################
+# .NET Core / .NET 9
+##########################
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.rsuser
+*.vsp
+*.vspx
+*.sap
+*.tmp_proj
+*_wpftmp.csproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+**/coverage-report/
+
+##########################
+# Clean Architecture / CQRS specific
+##########################
+
+# Application secrets & config overrides
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+**/secrets/**
+
+# EF Core Migrations (optional — remove if you commit migrations)
+# **/Migrations/
+
+##########################
+# Docker
+##########################
+docker-compose.override.yml
+.env
+.env.*
+!.env.example
+
+##########################
+# Runtime & publish output
+##########################
+publish/
+[Pp]ublish/
+**/publish/
+*.pubxml
+*.pubxml.user
+
+##########################
+# OS & tooling noise
+##########################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# JetBrains Rider temp files
+*.DotSettings.user
+
+##########################
+# Logs & diagnostics
+##########################
+*.log
+*.trace
+*.dmp
+crash-*.json
+
+##########################
+# Node (if any frontend tooling)
+##########################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

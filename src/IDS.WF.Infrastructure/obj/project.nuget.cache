@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/9gct7wyA04=",
+  "dgSpecHash": "OAbmJkQBIwg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\src\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\a.kabbout\\Desktop\\Projects\\RDH\\API\\IDS.WF\\IDS.WF\\src\\IDS.WF.Infrastructure\\Rwd.WF.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.kabbout\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\a.kabbout\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
