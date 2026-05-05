@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using StackExchange.Redis;
+// using StackExchange.Redis;
 using Rwd.WF.API.Authorization;
 using Rwd.WF.API.Middleware;
 using Rwd.WF.Application.Common.Behaviors;
@@ -38,9 +38,10 @@ builder.Services.AddValidatorsFromAssembly(
 // ?? Infrastructure ????????????????????????????????????????????????????????????
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
-builder.Services.AddSingleton<IConnectionMultiplexer>(_ =>
-    ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("Redis")!));
-builder.Services.AddScoped<ICacheService, RedisCacheService>();
+// builder.Services.AddSingleton<IConnectionMultiplexer>(_ =>
+//     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("Redis")!));
+// builder.Services.AddScoped<ICacheService, RedisCacheService>();
+builder.Services.AddScoped<ICacheService, NoOpCacheService>();
 
 builder.Services.AddMassTransit(x =>
 {
@@ -174,6 +175,12 @@ if (app.Environment.IsDevelopment() || app.Environment.IsStaging())
 }
 app.MapControllers();
 
-await app.Services.SeedInfrastructureAsync();
+// Apply migrations first, then seed
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<WorkflowWriteDbContext>();
+    await db.Database.MigrateAsync(); // ← creates tables
+}
 
+await app.Services.SeedInfrastructureAsync(); // ← then seed
 await app.RunAsync();
