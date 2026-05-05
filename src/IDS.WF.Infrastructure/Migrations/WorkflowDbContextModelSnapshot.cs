@@ -10,7 +10,7 @@ using Rwd.WF.Infrastructure.Persistence;
 
 namespace Rwd.WF.Infrastructure.Migrations
 {
-    [DbContext(typeof(WorkflowDbContext))]
+    [DbContext(typeof(WorkflowWriteDbContext))]
     partial class WorkflowDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

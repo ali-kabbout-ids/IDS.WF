@@ -21,6 +21,10 @@ using Rwd.WF.Infrastructure.Messaging.Consumers;
 using Rwd.WF.Infrastructure.Persistence;
 using Rwd.WF.Infrastructure.Persistence.Repositories;
 using Rwd.WF.Infrastructure;
+using Elsa.EntityFrameworkCore.Extensions;
+using Elsa.EntityFrameworkCore.Modules.Management;
+using Elsa.EntityFrameworkCore.Modules.Runtime;
+using Elsa.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +41,22 @@ builder.Services.AddValidatorsFromAssembly(
 
 // ?? Infrastructure ????????????????????????????????????????????????????????????
 builder.Services.AddInfrastructureServices(builder.Configuration);
+
+var connectionString = builder.Configuration.GetConnectionString("Postgres")!;
+builder.Services.AddElsa(elsa =>
+{
+    elsa.UseWorkflowManagement(management => 
+        management.UseEntityFrameworkCore(ef => 
+            ef.UsePostgreSql(connectionString)));
+            
+    elsa.UseWorkflowRuntime(runtime => 
+        runtime.UseEntityFrameworkCore(ef => 
+            ef.UsePostgreSql(connectionString)));
+
+    elsa.UseWorkflowsApi();
+    elsa.UseHttp();
+    elsa.UseScheduling();
+});
 
 builder.Services.AddSingleton<IConnectionMultiplexer>(_ =>
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("Redis")!));
@@ -172,6 +192,10 @@ if (app.Environment.IsDevelopment() || app.Environment.IsStaging())
         opts.DefaultModelsExpandDepth(-1);
     });
 }
+
+app.UseWorkflowsApi();
+app.UseWorkflows();
+
 app.MapControllers();
 
 await app.Services.SeedInfrastructureAsync();

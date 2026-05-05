@@ -11,7 +11,7 @@ using Rwd.WF.Infrastructure.Persistence;
 
 namespace Rwd.WF.Infrastructure.Migrations
 {
-    [DbContext(typeof(WorkflowDbContext))]
+    [DbContext(typeof(WorkflowWriteDbContext))]
     [Migration("20260422093559_InitialCreate")]
     partial class InitialCreate
     {
