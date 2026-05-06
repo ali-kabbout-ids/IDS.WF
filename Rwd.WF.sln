@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.API", "src\IDS.WF.API\Rwd.WF.API.csproj", "{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.API", "src\Rwd.WF.API\Rwd.WF.API.csproj", "{3A82E77B-EF6E-4916-A9CE-1AB9A11B51D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Application", "src\IDS.WF.Application\Rwd.WF.Application.csproj", "{094B10A1-2823-4746-93DE-35CC46F0F2F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Application", "src\Rwd.WF.Application\Rwd.WF.Application.csproj", "{094B10A1-2823-4746-93DE-35CC46F0F2F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Domain", "src\IDS.WF.Domain\Rwd.WF.Domain.csproj", "{933EA26D-010D-4071-96C5-1C1F227616B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Domain", "src\Rwd.WF.Domain\Rwd.WF.Domain.csproj", "{933EA26D-010D-4071-96C5-1C1F227616B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Infrastructure", "src\IDS.WF.Infrastructure\Rwd.WF.Infrastructure.csproj", "{5C687699-4683-4BB4-ADC1-08F6913D62F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rwd.WF.Infrastructure", "src\Rwd.WF.Infrastructure\Rwd.WF.Infrastructure.csproj", "{5C687699-4683-4BB4-ADC1-08F6913D62F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

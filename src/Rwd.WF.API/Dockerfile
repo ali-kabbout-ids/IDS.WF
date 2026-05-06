@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-COPY IDS.WF.sln ./
+COPY Rwd.WF.sln ./
 COPY src/ ./src/
 
-RUN dotnet restore ./IDS.WF.sln
-RUN dotnet publish ./src/IDS.WF.API/Rwd.WF.API.csproj -c Release -o /app/publish
+RUN dotnet restore ./Rwd.WF.sln
+RUN dotnet publish ./src/Rwd.WF.API/Rwd.WF.API.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
