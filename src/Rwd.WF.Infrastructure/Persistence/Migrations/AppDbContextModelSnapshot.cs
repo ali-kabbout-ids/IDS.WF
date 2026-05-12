@@ -10,18 +10,46 @@ using Rwd.WF.Infrastructure.Persistence;
 
 namespace Rwd.WF.Infrastructure.Persistence.Migrations
 {
-    [DbContext(typeof(WorkflowWriteDbContext))]
-    partial class WorkflowWriteDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(AppDbContext))]
+    partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasDefaultSchema("workflow")
-                .HasAnnotation("ProductVersion", "9.0.15")
+                .HasAnnotation("ProductVersion", "10.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("Rwd.WF.Domain.Entities.FormApplication", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("FormData")
+                        .IsRequired()
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Applications", "workflow");
+                });
 
             modelBuilder.Entity("Rwd.WF.Domain.Entities.LookupCategory", b =>
                 {
@@ -144,6 +172,92 @@ namespace Rwd.WF.Infrastructure.Persistence.Migrations
                     b.ToTable("LookupItems", "workflow");
                 });
 
+            modelBuilder.Entity("Rwd.WF.Domain.Entities.SubWorkflowResult", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CompletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ParentInstanceId")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Result")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentInstanceId");
+
+                    b.ToTable("SubWorkflowResults", "workflow");
+                });
+
+            modelBuilder.Entity("Rwd.WF.Domain.Entities.WorkflowTask", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("ApplicationId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AvailableActions")
+                        .IsRequired()
+                        .HasColumnType("jsonb");
+
+                    b.Property<DateTime?>("ClaimedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ClaimedBy")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ElsaTaskId")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("FormKey")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("RequiredRole")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("StepName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("SubmittedAction")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ElsaTaskId");
+
+                    b.HasIndex("ApplicationId", "Status");
+
+                    b.ToTable("WorkflowTasks", "workflow");
+                });
+
             modelBuilder.Entity("Rwd.WF.Domain.Entities.LookupItem", b =>
                 {
                     b.HasOne("Rwd.WF.Domain.Entities.LookupCategory", "Category")
@@ -153,6 +267,22 @@ namespace Rwd.WF.Infrastructure.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Rwd.WF.Domain.Entities.WorkflowTask", b =>
+                {
+                    b.HasOne("Rwd.WF.Domain.Entities.FormApplication", "Application")
+                        .WithMany("Tasks")
+                        .HasForeignKey("ApplicationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Application");
+                });
+
+            modelBuilder.Entity("Rwd.WF.Domain.Entities.FormApplication", b =>
+                {
+                    b.Navigation("Tasks");
                 });
 
             modelBuilder.Entity("Rwd.WF.Domain.Entities.LookupCategory", b =>

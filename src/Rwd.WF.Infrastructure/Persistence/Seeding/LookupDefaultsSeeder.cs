@@ -7,7 +7,7 @@ public sealed class LookupDefaultsSeeder : ILookupDefaultsSeeder
 {
     private const string SeedUser = "system-seed";
 
-    public async Task SeedAsync(WorkflowWriteDbContext context, CancellationToken cancellationToken = default)
+    public async Task SeedAsync(AppDbContext context, CancellationToken cancellationToken = default)
     {
         var categoryDefinitions = new[]
         {
@@ -72,7 +72,7 @@ public sealed class LookupDefaultsSeeder : ILookupDefaultsSeeder
     }
 
     private static async Task SeedItemsAsync(
-        WorkflowWriteDbContext context,
+        AppDbContext context,
         Guid categoryId,
         IReadOnlyCollection<(string Code, string NameEn, string NameAr, string? Value, int DisplayOrder)> items,
         CancellationToken cancellationToken)

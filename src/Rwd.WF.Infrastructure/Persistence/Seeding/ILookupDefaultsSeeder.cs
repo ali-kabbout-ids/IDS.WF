@@ -2,5 +2,5 @@ namespace Rwd.WF.Infrastructure.Persistence.Seeding;
 
 public interface ILookupDefaultsSeeder
 {
-    Task SeedAsync(WorkflowWriteDbContext context, CancellationToken cancellationToken = default);
+    Task SeedAsync(AppDbContext context, CancellationToken cancellationToken = default);
 }

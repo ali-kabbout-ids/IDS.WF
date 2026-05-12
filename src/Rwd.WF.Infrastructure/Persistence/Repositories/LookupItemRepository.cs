@@ -5,7 +5,7 @@ using Rwd.WF.Domain.Repositories;
 namespace Rwd.WF.Infrastructure.Persistence.Repositories;
 
 public class LookupItemRepository(
-    WorkflowWriteDbContext writeContext,
+    AppDbContext writeContext,
     WorkflowReadDbContext readContext) : ILookupItemRepository
 {
     public async Task<LookupItem?> GetByIdAsync(Guid id, CancellationToken ct = default)

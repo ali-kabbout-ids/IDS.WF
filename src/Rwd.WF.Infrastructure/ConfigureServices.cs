@@ -6,6 +6,7 @@ using Rwd.WF.Domain.Repositories;
 using Rwd.WF.Infrastructure.Persistence;
 using Rwd.WF.Infrastructure.Persistence.Repositories;
 using Rwd.WF.Infrastructure.Persistence.Seeding;
+using Rwd.WF.Infrastructure.Workflow;
 
 namespace Rwd.WF.Infrastructure;
 
@@ -17,10 +18,12 @@ public static class ConfigureServices
     {
         var connectionString = configuration.GetConnectionString("Postgres");
 
-        services.AddDbContext<WorkflowWriteDbContext>(opts =>
+        services.AddDbContext<AppDbContext>(opts =>
             opts.UseNpgsql(
                 connectionString,
                 x => x.MigrationsHistoryTable("__EFMigrationsHistory", "workflow")));
+
+        services.AddScoped<IAppDbContext>(sp => sp.GetRequiredService<AppDbContext>());
 
         services.AddDbContext<WorkflowReadDbContext>(opts =>
             opts.UseNpgsql(
@@ -34,6 +37,8 @@ public static class ConfigureServices
 
         services.AddScoped<ILookupDefaultsSeeder, LookupDefaultsSeeder>();
         services.AddScoped<WorkflowDbSeeder>();
+
+        services.AddScoped<IWorkflowEngine, WorkflowEngine>();
 
         return services;
     }

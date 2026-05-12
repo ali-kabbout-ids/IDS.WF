@@ -1,4 +1,5 @@
 using FluentValidation;
+using Rwd.WF.Application.Common.Exceptions;
 
 namespace Rwd.WF.API.Middleware;
 
@@ -18,6 +19,13 @@ public class GlobalExceptionMiddleware(RequestDelegate next, ILogger<GlobalExcep
 
             var errors = ex.Errors.Select(e => new { e.PropertyName, e.ErrorMessage });
             await context.Response.WriteAsJsonAsync(new { errors });
+        }
+        catch (UnauthorizedException ex)
+        {
+            logger.LogWarning("Unauthorized: {Message}", ex.Message);
+            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            context.Response.ContentType = "application/json";
+            await context.Response.WriteAsJsonAsync(new { error = ex.Message });
         }
         catch (Exception ex)
         {

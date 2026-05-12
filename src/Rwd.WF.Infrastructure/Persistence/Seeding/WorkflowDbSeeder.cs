@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 namespace Rwd.WF.Infrastructure.Persistence.Seeding;
 
 public sealed class WorkflowDbSeeder(
-    WorkflowWriteDbContext writeDbContext,
+    AppDbContext writeDbContext,
     ILookupDefaultsSeeder lookupDefaultsSeeder,
     ILogger<WorkflowDbSeeder> logger)
 {

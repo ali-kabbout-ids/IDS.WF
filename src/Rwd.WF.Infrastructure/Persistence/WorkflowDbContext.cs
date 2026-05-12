@@ -1,5 +1,6 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using Rwd.WF.Application.Common.Interfaces;
 using Rwd.WF.Domain.Entities;
 
 namespace Rwd.WF.Infrastructure.Persistence;
@@ -8,6 +9,9 @@ public class WorkflowDbContext(DbContextOptions options) : DbContext(options)
 {
     public DbSet<LookupCategory> LookupCategories => Set<LookupCategory>();
     public DbSet<LookupItem> LookupItems => Set<LookupItem>();
+    public DbSet<FormApplication> Applications => Set<FormApplication>();
+    public DbSet<WorkflowTask> WorkflowTasks => Set<WorkflowTask>();
+    public DbSet<SubWorkflowResult> SubWorkflowResults => Set<SubWorkflowResult>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -19,8 +23,8 @@ public class WorkflowDbContext(DbContextOptions options) : DbContext(options)
     }
 }
 
-public sealed class WorkflowWriteDbContext(DbContextOptions<WorkflowWriteDbContext> options)
-    : WorkflowDbContext(options)
+public sealed class AppDbContext(DbContextOptions<AppDbContext> options)
+    : WorkflowDbContext(options), IAppDbContext
 {
 }
 
